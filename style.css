@@ -1,0 +1,52 @@
+
+*{
+    margin: auto;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    line-height: 3rem;
+    background-color: black;
+    color: white;
+}
+.box-container{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    margin-top:3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.box-container .box{
+    height: 110px;
+    width: 110px;
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 25%;
+}
+
+.box-container .red{
+    background-color: rgb(224, 65, 65);
+}
+
+.box-container .green{
+    background-color: rgb(11, 103, 103);
+
+}
+
+.box-container .yellow{
+    background-color: rgb(255, 140, 57);
+
+}
+
+.box-container .purple{
+    background-color: rgb(136, 35, 136);
+}
+
+.box-container .gameFlash{
+    background-color: white;
+}
+.box-container .userFlash{
+    background-color: greenyellow;
+}
